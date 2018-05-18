@@ -37,7 +37,7 @@ int main()
 	out.close();
 
 
-	ifstream in("details",ios::in|ios::binary);
+	ifstream in("details.txt",ios::in|ios::binary);
 	if(!in)
 	{
 		cout<<"Error in opening the file";
